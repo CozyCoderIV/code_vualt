@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(29, 29, 29);
+    /* background: linear-gradient(to top, rgba(93, 65, 11, 0.725), rgb(29, 29, 29), black); */
+}
+/* Classes */
+.main_content{
+    margin-left: 6.5ch;
+    width: 90%;
+    height: 40ch;
+    border: 1px solid snow;
+    padding-top: 10px;
+    background-image: url('../Friendsgiving/assets/pumpkin2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ID's */
+#container{
+    border: 1px solid black;
+}
+#name{
+    font-weight: 700;
+    font-size:xx-large;
+    color: aliceblue;
+    font-family: 'Dancing Script', cursive;
+}
+#name_display{
+    position: relative;
+    left: 30%;
+    width: 40%;
+    height: 10ch;
+    border: 1px solid snow;
+    border-radius: 10px;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#name_picker{
+    position: relative;
+    left: 38%;
+    width: 20%;
+    height: 10ch;
+    margin: 15px 0;
+    border-radius: 10px;
+
+    background-color: rgba(226, 225, 219, 0.573);
+    color: aliceblue;
+    border: 1px solid snow;
+}
+#title{
+    position: relative;
+    bottom: 1.2ch;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+#title_container{
+    margin-bottom: 5ch;
+    height: 40px;
+    background: linear-gradient(to right,rgba(150, 124, 71, 0.725), rgb(126, 70, 23),  rgba(150, 124, 71, 0.725));
+    border: 1px solid grey;
+}
+#imgA{
+    position: relative;
+    border: 1px solid black;
+    width: 30%;
+    height: 30ch;
+    background-image: url('../Friendsgiving/assets/turkey1.png');
+}
+#imgB{
+    position: relative;
+    border: 1px solid black;
+    width: 30%;
+    height: 30ch;
+}
